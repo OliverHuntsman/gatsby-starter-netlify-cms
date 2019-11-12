@@ -2,15 +2,12 @@
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/Banner-Cornwell-Manor-Wedding.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Incredible Hair & Makeup 
+subheading: Support a young family while making your day amazing x
 mainpitch:
-  title: Why Kaldi
+  title: Why Gemma
   description: >
-    Gemma Sutton is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Gemma Sutton is the hair and makeup artist for everyone who believes that great hair and makeup shouldn't just look good, it should feel good too. Gemma trains all of her Pro Team in house so she is confident that standards are impeccably high
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
