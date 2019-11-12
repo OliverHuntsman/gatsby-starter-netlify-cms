@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/Banner Cornwell Manor Wedding.jpg
+image: /img/Banner-Cornwell-Manor-Wedding.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
