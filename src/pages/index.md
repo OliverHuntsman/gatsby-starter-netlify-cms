@@ -3,7 +3,7 @@ templateKey: index-page
 title: Incredible Hair & Makeup xx
 image: /img/Banner-Cornwell-Manor-Wedding.jpg
 heading: Incredible Hair & Makeup  x
-subheading: Support a young family while making your day amazing x
+subheading: Look and feel the best vversion of yourself x
 mainpitch:
   title: Why Gemma
   description: >
