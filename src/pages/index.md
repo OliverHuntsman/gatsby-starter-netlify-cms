@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/Banner-Cornwell-Manor-Wedding.jpg
+image: /img/Banner-Cornwell-Manor-Wedding.jpeg
 heading: Incredible Hair & Makeup 
-subheading: Support a young family while making your day amazing x
+subheading: Look and feel the very best version of yourself x
 mainpitch:
   title: Why Gemma
   description: >

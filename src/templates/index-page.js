@@ -62,8 +62,18 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        <Link className = "btn" to="/contact" style = {{alignSelf: 'center', hover: 'grey'}}>
+              Get in touch
+            </Link>
       </div>
-    </div>
+     
+          <div >
+
+            
+
+          </div>
+    
+   </div>
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
