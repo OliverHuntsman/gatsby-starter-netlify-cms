@@ -1,9 +1,10 @@
 ---
 templateKey: index-page
-title: Incredible Hair & Makeup xx
-image: /img/Banner-Cornwell-Manor-Wedding.jpg
+title: Incredible Hair & Makeup xx 
+image: /oliver/netlify-coffee-site/static/img/Banner-Cornwell-Manor-Wedding.jpg
+
 heading: Incredible Hair & Makeup  x
-subheading: Look and feel the best vversion of yourself x
+subheading: Look and feel the best version of yourself x
 mainpitch:
   title: Why Gemma
   description: >
