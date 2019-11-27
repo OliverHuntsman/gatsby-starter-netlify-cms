@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import store from '../img/store.svg'
-import logo from '../img/GS_Logo_Transparent.svg'
+import logo from '../img/SVG/GSfavi2.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
