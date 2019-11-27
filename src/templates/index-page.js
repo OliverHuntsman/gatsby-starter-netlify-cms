@@ -17,14 +17,14 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image-container margin-top-0"
+      className="full-width-image-container margin-top-0" alt="gorgeousbride and her party"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top`,
         //backgroundAttachment: `fixed`,
-        //backgroundWidth: '100%',
+        backgroundWidth: '100%',
       }}
     >
       <div
@@ -33,7 +33,7 @@ export const IndexPageTemplate = ({
           height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
-          alignItems: 'left',
+          alignItems: 'center',
           flexDirection: 'column',
         }}
       >
@@ -178,7 +178,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 1080, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
