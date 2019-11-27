@@ -6,8 +6,8 @@ title: About us xx
 ### Makeup that enhances your natural beauty without masking it
 Makeup should enhance everything you have, it should be feel like you, look incredbile, here at Gemma Sutton 
 
-### About me
-I'm the typical creative, mind everywhere at once always looking for new inspiration 
+### About me xx
+I'm the typical creative, mind everywhere at once always looking for new inspiration
 
 I live and work with my partner Olly and we have to little ones together - Spencer & CoCo
 
