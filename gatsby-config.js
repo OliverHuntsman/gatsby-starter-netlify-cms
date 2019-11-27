@@ -22,6 +22,21 @@ module.exports = {
         name: 'pages',
       },
     },
+    
+    
+    {	
+      resolve: `gatsby-plugin-manifest`,	
+      options: {	
+        name: `GS-favi`,	
+        short_name: `GS_favi`,	
+        start_url: `/`,	
+        background_color: `#FFFFFF`,	
+        theme_color: `#FFFFFF`,	
+        icon: `src/img/GS_Logo_favicon.png`, // Need to create this asset	
+        include_favicon: true,	
+      },	
+    },	
+
     {
       resolve: 'gatsby-source-filesystem',
       options: {
