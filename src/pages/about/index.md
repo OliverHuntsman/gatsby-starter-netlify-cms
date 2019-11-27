@@ -38,4 +38,3 @@ I donate 1% of my profits to good causes, this year I've donated to
 
 * action aid for women 
 * [OFI - Orangutan Foundation International](https://orangutan.org/our-projects/forest-stewardship/purchase-and-protection/) who purchase rainforests to protect Orangutans natural habits
-
