@@ -1,19 +1,41 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About us xx
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Makeup that enhances your natural beauty without masking it
+Makeup should enhance everything you have, it should be feel like you, look incredbile, here at Gemma Sutton 
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### About me
+I'm the typical creative, mind everywhere at once always looking for new inspiration
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+I live and work with my partner Olly and we have to little ones together - Spencer & CoCo
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### I wouldn't be abe to do anything without the amazing team I have around me xx
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+In 2013 I started working with Fran, an absolutely wonderful soul and super organised xx Fran is my Creative Director and makes sure everything happens
+
+I wouldn't be able to make the big day so special without my absolutely amazing Pro Team, one of the best htings about running a small business is choosing to work with people you love
+
+Michelle is one of the closest Pro Team members I have
+
+### Pro Team - who makes the cut
+I'm quite choosy - or so I'm told, when a friend asked Miss Rose Gold what it is like working with Gemma - great, so long as you're getting it right! 
+
+I set incredbily high standards for myself and my Pro Team is an extension of me and those standards xx
+
+### Working responsbly
+Where possbile I activly encourage the use of cruelty free products
+The cosmetics industry as a whole has a lot of work to do in terms of a cruelty free commitment
+
+In December of 2019 I ran a campaign and circulated 4,000 stickers to fellow makeup artists to cover up their products 
+
+Some of the best products out there are yet to make the cruelty free commitment 
+
+### Giving back
+
+I donate 1% of my profits to good causes, this year I've donated to
+
+* action aid for women 
+* [OFI - Orangutan Foundation International](https://orangutan.org/our-projects/forest-stewardship/purchase-and-protection/) who purchase rainforests to protect Orangutans natural habits
+

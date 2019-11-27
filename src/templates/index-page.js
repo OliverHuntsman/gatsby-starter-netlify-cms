@@ -17,12 +17,13 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image-container margin-top-0"
+      className="full-width-image-container margin-top-0" alt="gorgeous bride and her party xx"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top`,
+        
         //backgroundAttachment: `fixed`,
         //backgroundWidth: '100%',
       }}
@@ -33,7 +34,7 @@ export const IndexPageTemplate = ({
           height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
-          alignItems: 'left',
+          alignItems: 'center',
           flexDirection: 'column',
         }}
       >
@@ -126,7 +127,7 @@ IndexPageTemplate.propTypes = {
     blurbs: PropTypes.array,
   }),
 }
-
+ 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
@@ -178,7 +179,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 1080, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
