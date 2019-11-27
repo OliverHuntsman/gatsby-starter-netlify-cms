@@ -32,7 +32,7 @@ module.exports = {
         start_url: `/`,	
         background_color: `#FFFFFF`,	
         theme_color: `#FFFFFF`,	
-        icon: `src/img/GS_Logo_favicon.png`, // Need to create this asset	
+        icon: `src/img/SVG/GSfavi2.svg`, // Need to create this asset	
         include_favicon: true,	
       },	
     },	
