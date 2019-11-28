@@ -1,15 +1,18 @@
 ---
-templateKey: 'about-page'
-path: /about
+templateKey: about-page
 title: About us xx
 
 ---
+
 ### Makeup that enhances your natural beauty without masking it
-Makeup should enhance everything you have, it should be feel like you, look incredbile, here at Gemma Sutton 
+
+Makeup should enhance everything you have, it should be feel like you, look incredible, here at Gemma Sutton 
 
 ### About me xx
+
 <style>img {  border-radius: 50%;}</style>
 ![](/static/img/Gemma-Sutton-Profile.jpg)
+
 
 I'm the typical creative, mind everywhere at once always looking for new inspiration
 
@@ -26,11 +29,13 @@ I wouldn't be able to make the big day so special without my absolutely amazing 
 Michelle is one of the closest Pro Team members I have
 
 ### Pro Team - who makes the cut
+
 I'm quite choosy - or so I'm told, when a friend asked Miss Rose Gold what it is like working with Gemma - great, so long as you're getting it right! 
 
 I set incredbily high standards for myself and my Pro Team is an extension of me and those standards xx
 
 ### Working responsbly
+
 Where possbile I activly encourage the use of cruelty free products
 The cosmetics industry as a whole has a lot of work to do in terms of a cruelty free commitment
 
