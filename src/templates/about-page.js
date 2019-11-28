@@ -16,7 +16,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              <PageContent className="content"  content={content} />
+              
             </div>
           </div>
         </div>
@@ -30,6 +31,7 @@ AboutPageTemplate.propTypes = {
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
+
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
@@ -56,7 +58,16 @@ export const aboutPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
+        title 
+          image {
+        childImageSharp {
+          fluid(maxWidth: 300, quality: 10) {
+            ...GatsbyImageSharpFluid
+          } 
+        }
+      }
+        
+
       }
     }
   }

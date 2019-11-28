@@ -1,6 +1,7 @@
 ---
 templateKey: about-page
 title: About us xx
+
 ---
 
 ### Makeup that enhances your natural beauty without masking it
@@ -9,7 +10,13 @@ Makeup should enhance everything you have, it should be feel like you, look incr
 
 ### About me xx
 
+<style>img {  border-radius: 50%;}</style>
+![](/static/img/Gemma-Sutton-Profile.jpg)
+
+
 I'm the typical creative, mind everywhere at once always looking for new inspiration
+
+
 
 I live and work with my partner Olly and we have to little ones together - Spencer & CoCo
 
