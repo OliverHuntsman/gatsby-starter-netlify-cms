@@ -2,19 +2,12 @@
 templateKey: about-page
 title: About us xx
 ---
-<style>
-img {
-  border-radius: 50%;
-}
-</style>
 
 ### Makeup that enhances your natural beauty without masking it
 
-Makeup should enhance everything you have, it should be feel like you, look incredbile, here at Gemma Sutton 
+Makeup should enhance everything you have, it should be feel like you, look incredible, here at Gemma Sutton 
 
 ### About me xx
-
-<img src = "../static/img/blog-index.jpg">
 
 I'm the typical creative, mind everywhere at once always looking for new inspiration
 
