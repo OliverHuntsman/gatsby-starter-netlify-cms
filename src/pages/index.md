@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Incredible Hair & Makeup xx
-image: /img/Banner-Cornwell-Manor-Wedding.jpg
+image: /img/BridalParty.jpeg
 heading: Incredible Hair & Makeup  x
 subheading: Look and feel the best version of yourself x
 mainpitch:
