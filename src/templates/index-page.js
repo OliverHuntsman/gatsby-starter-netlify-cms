@@ -19,7 +19,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image-container margin-top-0" alt="gorgeousbride and her party"
+      className="full-width-image-container margin-top-0" alt="gorgeous bride and her party"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -164,7 +164,7 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid( maxWidth: 1000, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -180,7 +180,7 @@ export const pageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 1080, quality: 100) {
+                fluid(maxWidth: 500, quality: 100){
                   ...GatsbyImageSharpFluid
                 }
               }
