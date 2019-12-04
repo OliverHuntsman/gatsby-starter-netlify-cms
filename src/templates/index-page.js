@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `bottom`,
-        backgroundAttachment: `fixed`,
+        //backgroundAttachment: `fixed`,
         backgroundWidth: '100%',
       }}
     >
@@ -164,11 +164,12 @@ export const pageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid( maxWidth: 1000, quality: 100) {
+            fluid( maxWidth: 800, quality:100) {
               ...GatsbyImageSharpFluid
             }
           }
         }
+
         heading
         subheading
         mainpitch {
