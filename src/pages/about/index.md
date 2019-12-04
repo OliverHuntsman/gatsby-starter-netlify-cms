@@ -11,7 +11,7 @@ Makeup should enhance everything you have, it should be feel like you, look incr
 ### About me xx
 
 <style>img {  border-radius: 50%;max-width: 150px ;Max-height: 224px;}</style>
-![](/static/img/Gemma-Sutton-Profile.jpg)
+![](/static/img/Gemma-Profile-pic-with-CoCo.png
 
 I'm the typical creative, mind everywhere at once always looking for new inspiration
 
