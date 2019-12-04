@@ -16,20 +16,20 @@ const TemplateWrapper = ({ children }) => {
         <meta name="description" content={description} />
 
         <link
-          rel="apple-touch-icon"
+          rel="GS-favi"
           sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
+          href={`${withPrefix('/')}img/SVG/GSfavi2.svg`}
         />
         <link
           rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
+          type="image/svg"
+          href={`${withPrefix('/')}img/SVG/GSfavi2.svg`}
           sizes="32x32"
         />
         <link
           rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
+          type="image/svg"
+          href={`${withPrefix('/')}img/SVG/GSfavi2.svg`}
           sizes="16x16"
         />
 
