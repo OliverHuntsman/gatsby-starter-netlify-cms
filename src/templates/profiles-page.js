@@ -7,8 +7,8 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
- 
-export const IndexPageTemplate = ({
+
+export const ProfilesPageTemplate = ({
   image,
   title,
   heading,
@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
         //backgroundAttachment: `fixed`,
         backgroundWidth: '100%',
       }}
-    >
+    > 
       <div
         style={{
           display: 'flex',
@@ -45,9 +45,10 @@ export const IndexPageTemplate = ({
             //boxShadow:
               //'rgb(224, 200, 141) 0.5rem 0px 0px, rgb(224, 200, 141) -0.5rem 0px 0px',
             //backgroundColor: 'rgb(224, 200, 141)',
-            color: 'grey',
+            color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            align: 'center',
           }}
         >
           {title}
@@ -58,7 +59,7 @@ export const IndexPageTemplate = ({
             //boxShadow:
               //'rgb(224, 200, 141) 0.5rem 0px 0px, rgb(224, 200, 141) -0.5rem 0px 0px',
             //backgroundColor: 'rgb(224, 200, 141)',
-            color: 'grey',
+            color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -117,49 +118,50 @@ export const IndexPageTemplate = ({
   </div>
 )
 
-IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  heading: PropTypes.string,
-  subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
-
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
-
-  return (
-    <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
-    </Layout>
-  )
-}
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
+ProfilesPageTemplate.propTypes = {
+    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    title: PropTypes.string,
+    heading: PropTypes.string,
+    subheading: PropTypes.string,
+    mainpitch: PropTypes.object,
+    description: PropTypes.string,
+    intro: PropTypes.shape({
+      blurbs: PropTypes.array,
     }),
-  }),
-}
+  }
+  
+  const ProfilesPage = ({ data }) => {
+    const { frontmatter } = data.markdownRemark
+  
+    return (
+      <Layout>
+        <ProfilesPageTemplate
+          image={frontmatter.image}
+          title={frontmatter.title}
+          heading={frontmatter.heading}
+          subheading={frontmatter.subheading}
+          mainpitch={frontmatter.mainpitch}
+          description={frontmatter.description}
+          intro={frontmatter.intro}
+        />
+      </Layout>
+    )
+  }
 
-export default IndexPage
+ProfilesPage.propTypes = {
+    data: PropTypes.shape({
+      markdownRemark: PropTypes.shape({
+        frontmatter: PropTypes.object,
+      }),
+    }),
+  }
+
+
+export default ProfilesPage
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+  query ProfilesPageTemplate {
+    markdownRemark(frontmatter: { templateKey: { eq: "profiles-page" } }) {
       frontmatter {
         title
         image {
