@@ -5,7 +5,8 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.8.0",
-    "gatsby": "^2.18.5",
+    "gatsby": "^2.18.13",
+    "gatsby-background-image": "^0.9.12",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-catch-links": "^2.1.19",
     "gatsby-plugin-manifest": "^2.2.30",
@@ -32,6 +33,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.0",
+    "react-icons": "^3.8.0",
     "react-reveal": "^1.2.2",
     "uuid": "^3.2.1"
   },

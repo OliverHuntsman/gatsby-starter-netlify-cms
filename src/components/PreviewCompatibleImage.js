@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
-  const imageStyle = { borderRadius: '5px' }
+  const imageStyle = { width: '150px', left: '50%', top:'-3rem', marginLeft: '-75px' }
   const { alt = '', childImageSharp, image } = imageInfo
 
   if (!!image && !!image.childImageSharp) {
@@ -20,7 +20,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
     return <img style={imageStyle} src={image} alt={alt} />
 
   return null
-}
+} 
 
 PreviewCompatibleImage.propTypes = {
   imageInfo: PropTypes.shape({

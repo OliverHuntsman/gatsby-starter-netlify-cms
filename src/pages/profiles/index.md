@@ -2,7 +2,7 @@
 templateKey: profiles-page
 title: Makeup Should enhance your natural Beauty rather than masking it xx
 image: /img/team.png
-heading: Meet the people who make the magic happen  x
+heading: Who makes the magic happen  x
 subheading: Who are dedicated to making your wedding as special as possible x
 mainpitch:
   title: Why Gemma
@@ -13,20 +13,30 @@ mainpitch:
 
 description: >-
   Gemma Sutton is the ultimate stop for absolutely incesible makeup for your wedding day.
-
+image2: /img/Gemma-Profile Banner.jpg
 intro:
   blurbs:
     - image: /img/Gemma-Profile-pic-with-CoCo.png
+      banner: /img/Gemma-Profile Banner.jpg 
+      alt: alt
+      name: Gemma
       text: >
         I'm the typical creative, mind everywhere at once always looking for new inspiration
 
 
         I live and work with my partner Olly and we have to little ones together - Spencer & CoCo
     - image: /img/Olly-andSpencer-Profile-pic.png
+      banner:  /img/Olly-banner.jpg
+      name: Olly
+      alt: altb
       text: >
         Olly and I have been together for seven years now and he has always helped out behind the scenes with admin and technical sides 
         [Find out more >](/profiles/Olly)
+        <https://google.com>
     - image: /img/Fran-Profile-pic.png
+      banner:  /img/Banner-Cornwell-Manor-Wedding.jpg
+      alt: alt
+      name: Fran
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
         fancy new Chemex but have no clue how to use it? Don't worry, we’re here
@@ -34,6 +44,9 @@ intro:
         to learn anything you want to know about coffee roasting and brewing.
         Email us or call the store for details.
     - image: /img/Miss-Sunshine-Profile-Pic.png
+      banner:  /img/Banner-Cornwell-Manor-Wedding.jpg
+      alt: alt
+      name: Michelle
       text: >
         We believe that good coffee has the power to bring people together.
         That’s why we decided to turn a corner of our shop into a cozy meeting
