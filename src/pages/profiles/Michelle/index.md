@@ -1,6 +1,6 @@
 ---
 templateKey: profile-page
-title: Meet Olly
+title: Meet Michelle
 image: /img/Olly-andSpencer-Profile-pic.png
 banner: /img/Olly-banner.jpg
 
