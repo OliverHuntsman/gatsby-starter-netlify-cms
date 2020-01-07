@@ -2,10 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-//import Features from '../components/Features'
+import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Checkout from '../components/checkout'
 
 export const ProductPageTemplate = ({
   image,
@@ -95,6 +96,7 @@ export const ProductPageTemplate = ({
                 {pricing.heading}
               </h2>
               <p className="is-size-5">{pricing.description}</p>
+              <Checkout/>
               <Pricing data={pricing.plans} />
             </div>
           </div>
