@@ -11,7 +11,7 @@ const FeatureGrid = ({ gridItems }) => (
       <div key={item.text} className="column is-6">
         <section className="section">
           <div className="has-text-centered ">
-            <Link to="/">
+            <Link to= "/profiles/Olly">
               <div className="profile-container" > 
 
                   

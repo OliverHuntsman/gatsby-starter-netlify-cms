@@ -38,7 +38,12 @@ module.exports = {
         include_favicon: true,	
       },	
     },	
-
+    {
+      resolve: `gatsby-plugin-stripe`,
+      options: {
+        async: true,
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
