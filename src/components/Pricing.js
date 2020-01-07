@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Checkout from '../components/checkout'
 
 const Pricing = ({ data }) => (
   <div className="columns">
@@ -9,6 +10,7 @@ const Pricing = ({ data }) => (
           <h4 className="has-text-centered has-text-weight-semibold">
             {price.plan}
           </h4>
+          <Checkout/>
           <h2 className="is-size-1 has-text-weight-bold has-text-primary has-text-centered">
             ${price.price}
           </h2>

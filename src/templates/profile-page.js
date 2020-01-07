@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
@@ -136,3 +136,6 @@ export const pageQuery = graphql`
     }
   }
 `
+
+
+*/
