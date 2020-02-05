@@ -12,4 +12,4 @@ text: bla bla bla
 This is more baout Olly and how he has been involved since I made a limited company
 
 
-Quote form Olly:- I love Gemma x
+Quote form Gemma:- I love Olly x

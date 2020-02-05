@@ -1,15 +1,15 @@
 ---
 templateKey: profile-page
 title: Meet Michelle
-image: /img/Olly-andSpencer-Profile-pic.png
-banner: /img/Olly-banner.jpg
+image: /img/img/Miss-Sunshine-Profile-Pic.png
+banner: /img/Banner-Cornwell-Manor-Wedding.jpg
 
-description: Olly helps out a lot, from tneding to the website to taking new enquiries and putting together quotes.
-text: bla bla bla
+description: Michelle helps out a lot, she tends to do a lot of Gemma's destination weddings that she can't do and works closely alongside Gem to do all of the training for Pro Team members
+text: michelle
 ---
 
 
-This is more baout Olly and how he has been involved since I made a limited company
+This is more baout Michelle  and how she has conme on board
 
 
-Quote form Olly:--;wughluerghglher I love Gemma x
+Quote form Michelle:--;wughluerghglher I do microblading x

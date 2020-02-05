@@ -27,6 +27,7 @@ export const IndexPageTemplate = ({
         backgroundPosition: `top`,
         //backgroundAttachment: `fixed`,
         backgroundWidth: '100%',
+        backgroundHeight: '600px',
       }}
     >
       <div
@@ -35,10 +36,10 @@ export const IndexPageTemplate = ({
           height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
-          alignItems: 'center',
+          alignItems: 'left',
           flexDirection: 'column',
         }}
-      ><Zoom duration={50000}>
+      ><Zoom duration={500000}>
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
