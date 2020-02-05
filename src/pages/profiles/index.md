@@ -1,7 +1,7 @@
 ---
 templateKey: profiles-page
 title: Makeup Should enhance your natural Beauty rather than masking it xx
-image: /img/team.png
+image: /img/Banner-Cornwell-Manor-Wedding.jpg
 heading: Who makes the magic happen  x
 subheading: Who are dedicated to making your wedding as special as possible x
 mainpitch:
@@ -20,39 +20,34 @@ intro:
       banner: /img/Gemma-Profile Banner.jpg 
       alt: alt
       name: Gemma
+      slug: profiles/Gemma
       text: >
         I'm the typical creative, mind everywhere at once always looking for new inspiration
-
-
         I live and work with my partner Olly and we have to little ones together - Spencer & CoCo
     - image: /img/Olly-andSpencer-Profile-pic.png
       banner:  /img/Olly-banner.jpg
       name: Olly
       alt: altb
+      slug: profiles/Olly
       text: >
         Olly and I have been together for seven years now and he has always helped out behind the scenes with admin and technical sides 
-        [Find out more >](/profiles/Olly)
-        <https://google.com>
+        
+        
+      descriotion: pow
     - image: /img/Fran-Profile-pic.png
       banner:  /img/Banner-Cornwell-Manor-Wedding.jpg
       alt: alt
       name: Fran
+      slug: profiles/Fran
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Fran has been by my side since 2013 
     - image: /img/Miss-Sunshine-Profile-Pic.png
       banner:  /img/Banner-Cornwell-Manor-Wedding.jpg
       alt: alt
       name: Michelle
+      slug: profiles/Michelle
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Michelle is my No 1 Artist and right hand, we work very closely together on training my Pro Team and covering man of the destination weddings I can't always get to xx
   heading2: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

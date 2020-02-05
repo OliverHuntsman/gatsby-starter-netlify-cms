@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import {  graphql } from 'gatsby'
 import Zoom from 'react-reveal'
-
+import ProfileRoll from '../components/ProfileRoll'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 
@@ -14,6 +14,7 @@ export const ProfilesPageTemplate = ({
   subheading,
   mainpitch,
   description,
+  slug,
   intro,
 }) => (
   <div>
@@ -98,7 +99,6 @@ export const ProfilesPageTemplate = ({
                 </div> 
                 <Features gridItems={intro.blurbs} />
                
-                  
                 
               </div>
             </div>
@@ -106,6 +106,13 @@ export const ProfilesPageTemplate = ({
         </div>
       </div>
     </section>
+   <section className="section">
+          <div className="container">
+            <div className="content">
+              <ProfileRoll />
+            </div>
+          </div>
+        </section> 
   </div>
 )
 
@@ -116,6 +123,7 @@ ProfilesPageTemplate.propTypes = {
     subheading: PropTypes.string,
     mainpitch: PropTypes.object,
     description: PropTypes.string,
+    slug: PropTypes.string,
     intro: PropTypes.shape({
       blurbs: PropTypes.array,
     }),
@@ -134,6 +142,7 @@ ProfilesPageTemplate.propTypes = {
           mainpitch={frontmatter.mainpitch}
           description={frontmatter.description}
           intro={frontmatter.intro}
+          slug={frontmatter.slug}
         />
       </Layout>
     )
@@ -188,6 +197,7 @@ export const pageQuery = graphql`
               }
             }
             text
+            slug
             name
           
           }

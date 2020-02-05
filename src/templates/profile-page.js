@@ -78,7 +78,7 @@ const ProfilePage = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-banner={post.frontmatter.banner}
+        banner={post.frontmatter.banner}
         text={post.frontmatter.text}
         image={post.frontmatter.image}
         helmet={
@@ -110,8 +110,8 @@ ProfilePage.propTypes = {
 export default ProfilePage
 //the $id in blog post is the name of the blog wich programatically creates the page - no need for sub folders - check the tutorial
 export const pageQuery = graphql`
-  query ProfilePageTemplate {
-    markdownRemark(frontmatter: {templateKey:{ eq: "profile-page" }}) {
+  query ProfilePageTemplate ($id: String!){
+    markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
