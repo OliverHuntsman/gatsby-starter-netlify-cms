@@ -30,7 +30,7 @@ intro:
       alt: altb
       slug: profiles/Olly
       text: >
-        Olly and I have been together for seven years now and he has always helped out behind the scenes with admin and technical sides 
+        Olly and I have been together for seven years now and he has always helped out behind the scenes with admin and technical sides
         
         
       descriotion: pow

@@ -31,7 +31,7 @@ $blue:         hsl(43, 57%, 72%)
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 100vw
   position: relative
   left: 50%
   right: 50%
@@ -41,6 +41,9 @@ $blue:         hsl(43, 57%, 72%)
   display: flex
   justify-content: center
   align-items: center
+
+.banner-height
+    height: 500px
 
 .full-width-image
     width: 100vw
@@ -99,6 +102,7 @@ $menu-item-active-color: $kaldi-red-invert
 $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $white-ter
+
 
 
 .menu-label
@@ -165,3 +169,45 @@ $menu-label-color: $white-ter
     position: center
     overflow: hidden
     box-shadow: 5px 5px 5px #888
+
+.logo-float
+
+    //poisition: relative 
+    width: 150px
+    height: 150px
+    //left: 50%
+    //bottom: 0px
+    //margin-left: -75px
+
+.logo-container
+    width: 150px
+    height: 600px 
+//following transitions for front page logo bouncing taken from http://next.plnkr.co/edit/P2J3bfCKKCBJX1m2 from wellpaidgeeks newsletter
+
+// keyframes bounce:
+
+//   0% transform: translateY(0px)
+
+//   40% 
+//     transform: translateY(200px)
+  
+//   70% 
+//     transform: translateY(150px)
+  
+//   90% 
+//     transform: translateY(200px)
+
+
+  .ball
+  animation: 4s linear 2s infinite bounce
+
+.bounce-box
+
+  border: 1px solid black
+  width: 150px
+  height: 600px
+
+.flex-center
+  align-items: center
+  justify-content: center
+  flex-direction: column

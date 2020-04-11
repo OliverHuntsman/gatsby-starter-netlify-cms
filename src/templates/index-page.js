@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
         backgroundPosition: `top`,
         //backgroundAttachment: `fixed`,
         backgroundWidth: '100%',
-        backgroundHeight: '600px',
+        backgroundHeight: '1080px',
       }}
     >
       <div

@@ -24,6 +24,7 @@ const FeatureGrid = ({ gridItems }) => (
                 {/* Round profile image */}
                 <PreviewCompatibleImage  imageInfo={item.image} />
               </div>    
+                  {/* not totally happy about a p tag for a blnk line */}
                   <p></p> 
                   Meet {item.name} <IoIosArrowForward  style= {{verticalAlign:'-0.1875em', text:'bold' }}/> 
               

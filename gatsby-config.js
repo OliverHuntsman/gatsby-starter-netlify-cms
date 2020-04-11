@@ -24,7 +24,24 @@ module.exports = {
         name: 'pages',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/img`,
+        name: 'images',
+      },
+    },
     
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto`, 'Montserrat'
+          // `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      },
+    },
     
     {	
       resolve: `gatsby-plugin-manifest`,	
@@ -44,13 +61,7 @@ module.exports = {
         async: true,
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/img`,
-        name: 'images',
-      },
-    },
+
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
