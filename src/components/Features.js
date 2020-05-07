@@ -17,25 +17,30 @@ const FeatureGrid = ({ gridItems }) => (
         <section className="section">
           <div className="has-text-centered ">
            {/* Link runs across the profile image and met text */}
-            <Link to= {item.slug}> 
+           
               <div className="profile-container" > 
+              <Link to= {item.slug}> 
               {/* Preview compatible banner companent is banner image */} 
                 <PreviewCompatibleBanner bannerInfo ={item.banner}/>
                 {/* Round profile image */}
                 <PreviewCompatibleImage  imageInfo={item.image} />
-              </div>    
+                <p>test</p>
+                  
                   {/* not totally happy about a p tag for a blnk line */}
                   <p></p> 
                   Meet {item.name} <IoIosArrowForward  style= {{verticalAlign:'-0.1875em', text:'bold' }}/> 
-              
+                  
               </Link>
             
-          </div>
-          <p></p>
-          <p>{item.text}</p>
+          
+          <p>texty</p>
+          <p className="has-text-centered">{item.text}</p>
           <Link className="button" to={item.slug}>
                     Keep Reading →
           </Link>
+          <p></p>
+          <p></p>
+          </div></div>
         </section>
       </div>
     ))}
